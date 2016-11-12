@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
+    {{ partial "head.html" .}}
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="hero" class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 panel">
+                    <div class="panel-body">
+                        <img id="avatar" class="img-responsive img-circle center-block" src="{{ .Site.Params.headshot }}" />
+                    </div>
+                    <h1 class="text-center">{{ .Site.Params.name }}</h1>
+                    <h5 class="text-center">{{ .Site.Params.tagline }}</h5>
+                    <hr />
+                    {{ partial "contact.html" . }}
+                    <hr />
+                    {{ partial "social.html" . }}
+                </div>
+            </div>
+            {{ partial "footer.html" . }}
+        </div>
+    </body>
+</html>

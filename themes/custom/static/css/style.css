@@ -1,0 +1,16 @@
+body {
+    background-color: #eee;
+    color: #777;
+}
+
+#hero {
+    margin-top: 10%;
+}
+
+#avatar {
+    max-width: 125px;
+}
+
+a {
+    color: #777;
+}

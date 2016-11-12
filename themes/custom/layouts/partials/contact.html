@@ -1,0 +1,17 @@
+<form action="https://formspree.io/{{ .Site.Params.email }}" method="POST">
+    <input type="hidden" name="_next" value="{{ .Site.BaseURL}}" />
+    <div class="row">
+        <div class="col-xs-6 form-group">
+            <input type="text" name="name" class="form-control input-sm" placeholder="John Doe" />
+        </div>
+        <div class="col-xs-6 form-group">
+            <input type="email" name="email" class="form-control input-sm" placeholder="john@doe.com" />
+        </div>
+        <div class="col-xs-12 form-group">
+            <textarea rows="4" name="message" class="form-control input-sm" placeholder="Anything you are dying to tell me?"></textarea>
+        </div>
+        <div class="col-xs-12 form-group">
+            <button type="submit" class="btn btn-sm btn-block btn-default">Send</button>
+        </div>
+    </div>
+</form>

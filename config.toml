@@ -1,0 +1,17 @@
+# Site settings
+baseurl = "https://huttotw.github.io/"
+title = "Trevor Hutto"
+
+# Custom Params
+[params]
+    # Profile settings
+    name = "Trevor Hutto"
+    headshot = "images/headshot.jpg"
+    tagline = "Engineer - Gopher - Red Ventures"
+    email = "huttotw@gmail.com"
+
+# Social stuff
+[social]
+    twitter  = "https://www.twitter.com/huttotw"
+    linkedin = "https://www.linkedin.com/in/huttotw"
+    github   = "https://www.github.com/huttotw"
