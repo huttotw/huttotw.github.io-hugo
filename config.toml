@@ -6,9 +6,11 @@ title = "Trevor Hutto"
 [params]
     # Profile settings
     name = "Trevor Hutto"
-    headshot = "images/headshot.jpg"
+    avatar = "images/headshot.jpg"
     tagline = "Engineer - Gopher - Red Ventures"
     email = "huttotw@gmail.com"
+    twitter = "huttotw"
+    ga = "UA-87328759-1"
 
 # Social stuff
 [social]
