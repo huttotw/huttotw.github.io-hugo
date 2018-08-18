@@ -12,18 +12,4 @@
             {{ partial "social.html" . }}
         </div>
     </div>
-    {{ range .Site.Pages }}
-        <div class="row"> 
-            <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 panel">
-                <div class="panel-body text-center">
-                    <a href="{{ .Permalink }}">
-                        <h1 class="text-center">{{ .Title }}</h1>
-                    </a>
-                    <small>{{ .Date.Format "January 1, 2006"}}</small>
-                    <hr />
-                    <p class="text-left">{{ .Summary }}</p>
-                </div>
-            </div>
-        </div>
-    {{end}}
 {{ partial "after-content.html" . }}
